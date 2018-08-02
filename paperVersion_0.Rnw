@@ -23,7 +23,9 @@ Exploración Univariada
 
 En esta sección exploro cada índice.
 
+<<>>=
 
+@
 
 
 <<getData>>=
@@ -173,7 +175,6 @@ Luego incluyendo democracia.
 LinRegB = lm(gdp ~ ., data = dataidx[,c(2:6)])
 summary(LinRegB)
 @
-
 
 
 
